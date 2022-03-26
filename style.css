@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+body{
+    margin: 10px 10px 0px 10px;
+}
+main{
+    height: 97vh;
+    width: 95vw;
+    background: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 30px;
+
+}
+.leftsection{
+   width: 50%;
+   margin: auto;
+
+}
+.rightsection{
+    width: 50%;
+    margin: 50px;
+}
+
+.google{
+    width: 90%;
+    margin: auto;
+    padding: 25px;
+    margin-top: 5%;
+    margin-right: 10%;
+}
+.heading1{
+    font-size: 2rem;
+}
+.paragraph1{
+    font-size:1rem;
+    margin-top: 2%;
+}
+.button{
+    background-color: white;
+    width: 113%;
+    padding: 2%;
+    margin: 5px 5px 5px 0px;
+    margin-top: 4%;
+    border-radius: 10px;
+    padding-left: 25%;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+}
+.anchor{
+    display: flex;
+    justify-content: flex-start;
+    gap: 2%;
+    align-items: center;
+    text-align: center;
+    padding-top: 6px;
+    color: black;
+    margin-left: 20%;
+}
+a{
+    text-decoration: none;
+    color: darkblue;
+    font-weight: bold;
+}
+img.anchor1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    height: 20px;
+    width:25px;
+    margin-bottom: 4px;
+}
+.login form{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+}
+input{
+    display: inline-block;
+    padding: 10px 0 10px 10px;
+    width: 100%;
+    background: white;
+    text-align: left;
+    border-radius: 10px;
+    color: lightyellow;
+    border: 1px solid rgba(0, 0, 0, 0.26);
+    
+}
+label{
+   font-size: 16px;
+   font-weight: bold;
+   display: flex;
+   justify-content: left;
+   align-items: left;
+}
+
+.email{
+    margin-bottom: 2%;
+}
+
+.forget{
+    display: flex;
+    gap: 58%;
+    margin-top: 5%;
+}
+
+.forget a{
+   color: rgb(63, 63, 228);
+}
+
+.password{
+    margin-top: 2%;
+}
+
+ .rem {
+    margin-right: 95%;
+    margin-top: 3%; 
+}
+.button1 {
+    padding: 15px;
+    width: 80%;
+    text-align: center;
+    background-color: rgb(63, 63, 228);
+    margin-top: 3%;
+    margin-left: 5%;
+    border: none;
+}
+.image img{
+    width: 560px;
+    height: 490px;
+    position: absolute;
+    right: 1;   
+}
+.paragraph2{
+    margin-top: 3%;
+}
+
+@media screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border-radius: 0;
+    }
+    body{
+        height: 100vh;
+        background-image: linear-gradient(
+            rgba(0,0,0,0),
+            rgba(0,0,0,.5)60%,
+            rgba(0,0,0,.7)100%),
+            url(./pexels-mateusz-dach-450035.jpg)
+        ;}
+    main{
+    height: 100vh;
+    width: 99vw;
+    background: white;
+    display: flex;
+    justify-content: center;
+    border: 3px solid black;
+    border-radius: 30px;
+    }
+    .image img{
+        display: none;
+    }
+
+    .leftsection{
+        width: 100%;
+        height: 100%;
+    }
+    .google{
+        width: 165%;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 65%;
+        margin-bottom: 10%;
+        margin-left: 10%;
+    }
+    .heading1{
+        margin-bottom: 5%;
+    }
+    .paragraph1{
+        margin-bottom: 5%;
+    }
+
+    .button{
+        padding: 5px 5px 0px 15px;
+    }
+    .login form{
+        width: 165%;
+        margin-left: 20%;
+    }
+    .forget{
+    display: flex;
+    gap: 35%;
+    margin-top: 5%;
+}
+.button1{
+    width: 90%;
+    margin-right: auto;
+}
+.paragraph2{
+    margin-top: 4%;
+}
+    
+
+
+
+
+
+
+
+
+
+
+}
